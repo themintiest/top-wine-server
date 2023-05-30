@@ -24,8 +24,8 @@ import vn.topwines.users.domain.RegisterRequest;
 import vn.topwines.users.domain.UpdateProfileRequest;
 import vn.topwines.users.domain.UserDto;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;

@@ -2,9 +2,9 @@ package vn.topwines.core.query.jpa;
 
 import lombok.Getter;
 
-import javax.persistence.metamodel.Attribute;
-import javax.persistence.metamodel.ManagedType;
-import javax.persistence.metamodel.SingularAttribute;
+import jakarta.persistence.metamodel.Attribute;
+import jakarta.persistence.metamodel.ManagedType;
+import jakarta.persistence.metamodel.SingularAttribute;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

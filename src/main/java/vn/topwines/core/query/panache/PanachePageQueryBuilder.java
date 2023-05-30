@@ -10,7 +10,7 @@ import vn.topwines.core.query.jpa.JPQLPageQueryVisitor;
 import vn.topwines.core.query.jpa.JPQLQueryParamsBuilder;
 import vn.topwines.core.utils.CaseUtils;
 
-import javax.persistence.metamodel.ManagedType;
+import jakarta.persistence.metamodel.ManagedType;
 
 @JBossLog
 public class PanachePageQueryBuilder {

@@ -4,7 +4,7 @@ import io.quarkus.panache.common.Parameters;
 import vn.topwines.core.repository.BaseRepository;
 import vn.topwines.nations.entity.Nation;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;

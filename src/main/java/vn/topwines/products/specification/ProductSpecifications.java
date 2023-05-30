@@ -9,7 +9,7 @@ import vn.topwines.core.repository.specification.Specification;
 import vn.topwines.products.entity.Product;
 import vn.topwines.products.entity.ProductCategory;
 
-import javax.persistence.criteria.Join;
+import jakarta.persistence.criteria.Join;
 import java.math.BigDecimal;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

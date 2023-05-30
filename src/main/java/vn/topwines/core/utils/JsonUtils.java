@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
-import javax.ws.rs.BadRequestException;
+import jakarta.ws.rs.BadRequestException;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class JsonUtils {

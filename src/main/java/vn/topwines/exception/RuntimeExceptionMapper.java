@@ -2,13 +2,13 @@ package vn.topwines.exception;
 
 import lombok.extern.jbosslog.JBossLog;
 
-import javax.json.Json;
-import javax.json.JsonObjectBuilder;
-import javax.persistence.EntityExistsException;
-import javax.persistence.EntityNotFoundException;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.ext.ExceptionMapper;
-import javax.ws.rs.ext.Provider;
+import jakarta.json.Json;
+import jakarta.json.JsonObjectBuilder;
+import jakarta.persistence.EntityExistsException;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.ext.ExceptionMapper;
+import jakarta.ws.rs.ext.Provider;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

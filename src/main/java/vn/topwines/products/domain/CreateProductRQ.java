@@ -3,7 +3,7 @@ package vn.topwines.products.domain;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Set;

@@ -1,6 +1,6 @@
 package vn.topwines.exception;
 
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.core.Response;
 import java.util.HashMap;
 
 public class AuthException extends ServiceException {

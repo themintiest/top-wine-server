@@ -19,9 +19,9 @@ import vn.topwines.core.utils.CodeGenerator;
 import vn.topwines.core.utils.PageUtils;
 import vn.topwines.exception.BadRequestException;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.EntityNotFoundException;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 

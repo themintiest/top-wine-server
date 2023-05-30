@@ -7,7 +7,7 @@ import vn.topwines.core.mappers.AccountMapper;
 import vn.topwines.core.repository.AccountRepository;
 import vn.topwines.exception.UserException;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 @RequiredArgsConstructor

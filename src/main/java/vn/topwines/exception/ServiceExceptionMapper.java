@@ -4,9 +4,9 @@ import io.quarkus.security.runtime.QuarkusSecurityIdentity;
 import org.apache.commons.text.StringSubstitutor;
 import vn.topwines.security.SecurityIdentityHolder;
 
-import javax.ws.rs.core.Response;
-import javax.ws.rs.ext.ExceptionMapper;
-import javax.ws.rs.ext.Provider;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.ext.ExceptionMapper;
+import jakarta.ws.rs.ext.Provider;
 import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;

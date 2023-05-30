@@ -19,9 +19,9 @@ import vn.topwines.regions.mapper.RegionMapper;
 import vn.topwines.regions.repository.RegionRepository;
 import vn.topwines.regions.specification.RegionSpecifications;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.EntityNotFoundException;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 

@@ -19,9 +19,9 @@ import vn.topwines.grapes.mapper.GrapeMapper;
 import vn.topwines.grapes.repository.GrapeRepository;
 import vn.topwines.grapes.specification.GrapeSpecifications;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.EntityNotFoundException;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 

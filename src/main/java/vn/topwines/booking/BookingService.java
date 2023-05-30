@@ -27,8 +27,8 @@ import vn.topwines.products.constant.UpdateQuantityType;
 import vn.topwines.products.domain.UpdateProductQuantityMessage;
 import vn.topwines.products.entity.Product;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.transaction.Transactional;
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.ArrayList;

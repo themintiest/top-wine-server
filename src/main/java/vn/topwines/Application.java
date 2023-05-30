@@ -5,8 +5,8 @@ import io.quarkus.runtime.StartupEvent;
 import io.quarkus.runtime.annotations.QuarkusMain;
 import lombok.extern.jbosslog.JBossLog;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.event.Observes;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Observes;
 
 @JBossLog
 @QuarkusMain

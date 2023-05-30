@@ -3,7 +3,7 @@ package vn.topwines.booking.repository;
 import vn.topwines.booking.entity.Booking;
 import vn.topwines.core.repository.BaseRepository;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Optional;
 
 @ApplicationScoped

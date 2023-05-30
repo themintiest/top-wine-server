@@ -19,9 +19,9 @@ import vn.topwines.product_type.mapper.ProductTypeMapper;
 import vn.topwines.product_type.repository.ProductTypeRepository;
 import vn.topwines.product_type.specification.ProductTypeSpecifications;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.EntityNotFoundException;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 

@@ -16,7 +16,7 @@ import vn.topwines.core.mappers.ProfileMapper;
 import vn.topwines.users.AccountService;
 import vn.topwines.users.UserService;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Set;
 
 @ApplicationScoped

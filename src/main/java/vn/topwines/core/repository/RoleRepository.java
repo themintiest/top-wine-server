@@ -3,7 +3,7 @@ package vn.topwines.core.repository;
 
 import vn.topwines.core.entity.Role;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Optional;
 import java.util.Set;
 

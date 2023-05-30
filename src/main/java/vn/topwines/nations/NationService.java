@@ -19,9 +19,9 @@ import vn.topwines.nations.mapper.NationMapper;
 import vn.topwines.nations.repository.NationRepository;
 import vn.topwines.nations.specification.NationSpecifications;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.EntityNotFoundException;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 

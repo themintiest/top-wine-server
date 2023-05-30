@@ -4,11 +4,11 @@ import io.quarkus.panache.common.Parameters;
 import vn.topwines.core.domain.UserStatus;
 import vn.topwines.core.entity.Account;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;

@@ -2,10 +2,10 @@ package vn.topwines.exception;
 
 import lombok.extern.jbosslog.JBossLog;
 
-import javax.json.Json;
-import javax.json.JsonObjectBuilder;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.ext.ExceptionMapper;
+import jakarta.json.Json;
+import jakarta.json.JsonObjectBuilder;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.ext.ExceptionMapper;
 
 //@Provider
 @JBossLog

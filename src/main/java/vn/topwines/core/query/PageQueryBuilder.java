@@ -6,7 +6,7 @@ import cz.jirutka.rsql.parser.ast.Node;
 import lombok.extern.jbosslog.JBossLog;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.ws.rs.BadRequestException;
+import jakarta.ws.rs.BadRequestException;
 
 @JBossLog
 public class PageQueryBuilder {

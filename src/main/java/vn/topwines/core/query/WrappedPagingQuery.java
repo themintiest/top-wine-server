@@ -4,7 +4,7 @@ import cz.jirutka.rsql.parser.RSQLParser;
 import cz.jirutka.rsql.parser.RSQLParserException;
 import cz.jirutka.rsql.parser.ast.Node;
 
-import javax.ws.rs.BadRequestException;
+import jakarta.ws.rs.BadRequestException;
 
 public class WrappedPagingQuery extends PagingQuery {
     PagingQuery delegate;

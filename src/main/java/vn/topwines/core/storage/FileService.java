@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.FileUtils;
 import vn.topwines.exception.BadRequestException;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;

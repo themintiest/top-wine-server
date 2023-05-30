@@ -8,8 +8,8 @@ import io.smallrye.jwt.auth.principal.JWTCallerPrincipal;
 import io.smallrye.mutiny.Uni;
 import lombok.extern.jbosslog.JBossLog;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.control.ActivateRequestContext;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.control.ActivateRequestContext;
 import java.util.Locale;
 import java.util.function.Supplier;
 

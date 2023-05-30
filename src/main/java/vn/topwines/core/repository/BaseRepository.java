@@ -12,16 +12,16 @@ import vn.topwines.core.query.panache.PanachePagedQuery;
 import vn.topwines.core.repository.specification.Specification;
 import vn.topwines.core.repository.specification.SpecificationExecutor;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.From;
-import javax.persistence.criteria.Order;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Expression;
+import jakarta.persistence.criteria.From;
+import jakarta.persistence.criteria.Order;
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -221,12 +221,20 @@ public abstract class BaseRepository<E, I> implements PanacheRepositoryBase<E, I
 
     private PanachePageQueryBuilder getQueryBuilder() {
         if (queryBuilder == null) {
-            Class<?> entityClass = getEntityType();
-            return new PanachePageQueryBuilder(getEntityManager().getMetamodel().managedType(entityClass));
+            createQueryBuilder();
         }
         return queryBuilder;
     }
 
+    private synchronized void createQueryBuilder() {
+        if (queryBuilder != null) {
+            return;
+        }
+        Class<?> entityClass = getEntityType();
+        this.queryBuilder = new PanachePageQueryBuilder(getEntityManager().getMetamodel().managedType(entityClass));
+    }
+
+    @SuppressWarnings("unchecked")
     private Class<E> getEntityType() {
         Type genericSuperClass = getClass().getGenericSuperclass();
 

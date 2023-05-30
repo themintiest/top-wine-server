@@ -3,7 +3,7 @@ package vn.topwines.core.configurations;
 import lombok.RequiredArgsConstructor;
 import org.flywaydb.core.Flyway;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 @RequiredArgsConstructor

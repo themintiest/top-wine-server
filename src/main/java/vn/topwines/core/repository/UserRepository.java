@@ -3,7 +3,7 @@ package vn.topwines.core.repository;
 import io.quarkus.panache.common.Parameters;
 import vn.topwines.core.entity.Profile;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Optional;
 
 @ApplicationScoped
